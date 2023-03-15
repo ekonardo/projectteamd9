@@ -50,7 +50,7 @@ body {
 
 /* eko */
 .container {
-  background-image: url(./img/banner.jpeg);
+  background-image: url("./img/banner.jpeg");
   background-size: cover;
   /* background: rgb(255, 255, 255); */
   max-width: 1290px;
