@@ -1,37 +1,49 @@
 /* Untuk tablet */
 
 @media only screen and (max-width: 1000px) {
-    .body-content {
-        min-height: auto;
-        min-width: auto;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-    .left {
-        flex-direction: column-reverse;
-    }
+  .body-content {
+    min-height: auto;
+    min-width: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .left {
+    flex-direction: column-reverse;
+  }
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
 }
 
 @media (max-width: 670px) {
-    /* .body-content {
+  /* .body-content {
         
     } */
-    .body-content h2 {
-        font-size: 2rem;
-        font-weight: 700;
-        justify-content: center;
-    }
-    .body-content p {
-        font-size: 1.125rem;
-        font-weight: 400;
-        justify-content: center;
-    }
-    .text-desc {
-        width: 100%;
-        height: auto;
-    }
-    .body-wrapper {
-        margin: 0 auto;
-    }
+  .body-content h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    justify-content: center;
+  }
+  .body-content p {
+    font-size: 1.125rem;
+    font-weight: 400;
+    justify-content: center;
+  }
+  .text-desc {
+    width: 100%;
+    height: auto;
+  }
+  .body-wrapper {
+    margin: 0 auto;
+  }
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
 }
