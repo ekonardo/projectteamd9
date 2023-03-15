@@ -52,4 +52,25 @@
   .body-wrapper {
     margin: 0 auto;
   }
+  .get-started input {
+    margin-bottom: 10px;
+  }
+
+  /* Almira */
+  .form-top h2 {
+    font-size: 2rem;
+  }
+
+  .form-top p {
+    font-size: 18px;
+  }
+
+  .input-form input {
+    font-size: 14px;
+    width: auto;
+  }
+
+  .input-form span {
+    font-size: 15px;
+  }
 }

@@ -2,6 +2,8 @@
   background: rgba(0, 0, 0, 1);
 } */
 
+/* Elisa */
+
 body {
   font-family: "Segoe UI";
   color: white;
@@ -52,7 +54,7 @@ body {
 /* eko */
 .container {
   background: none;
-  background-image: url("./img/banner.jpeg");
+  background-image: url("./img/banner2.jpeg");
   background-size: cover;
   max-width: 100%;
   height: 600px;
@@ -69,13 +71,127 @@ body {
 
 .top-wrapper h1 {
   padding-top: 250px;
-  opacity: 0.7;
   font-size: 45px;
   letter-spacing: 5px;
   margin-bottom: 10px;
 }
 
 .top-wrapper p {
-  opacity: 0.7;
   margin-bottom: 3px;
+}
+.get-started {
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+input[type="email"] {
+  width: 300px;
+  height: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+button[type="submit"] {
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff0000f5;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #000;
+}
+
+/* Almira  */
+.form {
+  background: rgba(0, 0, 0, 1);
+  text-align: center;
+  margin: 100px auto;
+  height: 400px;
+  border-bottom: 8px solid #232323;
+}
+
+.form-top h2 {
+  font-size: 46px;
+  margin-bottom: 2px;
+}
+
+.form-top p {
+  font-size: 22px;
+}
+
+.input-form input {
+  padding: 10px;
+  border: 2px solid #848581;
+  border-radius: 6px;
+  margin: 10px auto;
+  width: 35%;
+  color: white;
+  font-size: 17px;
+}
+
+.input-form span {
+  padding: 10px 20px;
+  background-color: rgb(224, 22, 22);
+  color: white;
+  margin: top 100px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 2px 2px rgb(102, 9, 9);
+}
+
+.input-form span:active {
+  position: relative;
+  top: 5px;
+  box-shadow: none;
+}
+
+/* lisma */
+li {
+  list-style: none;
+}
+
+footer {
+  background: rgba(0, 0, 0, 1);
+  height: 200px;
+  padding: 20px 100px 100px 170px;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  font-size: 38px;
+  color: red;
+  font-weight: bold;
+  padding-left: 40px;
+  padding-bottom: 10px;
+}
+
+.footer-list1,
+.footer-list2 {
+  padding-bottom: 50px;
+}
+
+.footer-list1 ul li a,
+.footer-list2 ul li a {
+  color: white;
+}
+
+.footer-list1 li,
+.footer-list2 li {
+  padding-bottom: 10px;
+}
+
+.footer-list1 {
+  float: left;
+}
+
+.footer-list2 {
+  float: right;
+  padding-right: 200px;
 }
