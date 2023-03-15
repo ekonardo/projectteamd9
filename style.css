@@ -1,5 +1,5 @@
 * {
-  background: rgba(0, 0, 0, 1);
+  /* background: rgba(0, 0, 0, 1); */
 }
 
 body {
@@ -8,6 +8,7 @@ body {
 }
 
 .body-content {
+  background: rgba(0, 0, 0, 1);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -50,24 +51,24 @@ body {
 
 /* eko */
 .container {
-  background-image: url(./img/banner.jpeg);
+  background: none;
+  background-image: url("./img/banner.jpeg");
   background-size: cover;
-  /* background: rgb(255, 255, 255); */
-  max-width: 1290px;
-  height: 350px;
+  max-width: 100%;
+  height: 600px;
   width: 100%;
-  padding: 0 15px;
+  padding: 0 auto;
   margin: 0 auto;
   border-bottom: 8px solid #232323;
 }
 
 .top-wrapper {
-  padding: 180px 0 100px 0;
   color: white;
   text-align: center;
 }
 
 .top-wrapper h1 {
+  padding-top: 250px;
   opacity: 0.7;
   font-size: 45px;
   letter-spacing: 5px;
