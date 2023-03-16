@@ -14,12 +14,15 @@
   .left {
     flex-direction: column-reverse;
   }
+  footer {
+    padding: 50px;
+    margin: 0 auto;
+    width: 100%;
+}
 }
 
 @media (max-width: 670px) {
-  /* .body-content {
-        
-    } */
+
   /* eko */
   .top-wrapper {
     text-align: center;
@@ -33,6 +36,10 @@
   .top-wrapper p {
     font-size: 14px;
     line-height: 20px;
+  }
+  input[type="email"] {
+    width: 250px;
+    height: 20px;
   }
 
   .body-content h2 {
@@ -73,4 +80,18 @@
   .input-form span {
     font-size: 15px;
   }
+
+  /* Lisma */
+  footer {
+    padding: 10px 20px 10px 70px;
+    margin: 0 auto;
+    width: 100%;
+}
+.footer-logo {
+    font-size: 2rem;
+}
+
+.footer-list2 {
+    float: left;
+}
 }
