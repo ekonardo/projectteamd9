@@ -1,6 +1,13 @@
 /* Untuk tablet */
 
 @media only screen and (max-width: 1000px) {
+  .header-left h1{
+    font-size: 50px;
+  }
+  .header-right button{
+    width: 84px;
+  }
+  
   .top-wrapper h1 {
     font-size: 32px;
   }
@@ -22,6 +29,7 @@
 }
 
 @media (max-width: 670px) {
+
 
   /* eko */
   .top-wrapper {

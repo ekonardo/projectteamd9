@@ -15,6 +15,11 @@
   background-color: transparent;
   align-self: center;
 }
+.header-left h1{
+  font-size: 100px;
+  color: rgb(231, 5, 5);
+  padding: 20px;
+}
 
 .header-right button {
   margin: 0 50px;
@@ -24,9 +29,16 @@
   background-color: rgb(231, 5, 5);
   padding: 7px 17px;
   color: white;
-  display: flex;
-  flex-direction: row;
+  cursor: pointer;
   border-radius: 3px;
+}
+.header-right button:hover {
+  background-color: #000;
+}
+.header-right button:active {
+  position: relative;
+  top: 5px;
+  box-shadow: none;
 }
 
 /* Elisa */
@@ -80,7 +92,7 @@ body {
 }
 
 /* eko */
-.container {
+.main {
   background: none;
   background-image: url("./img/banner2.jpeg");
   background-size: cover;
